@@ -17,6 +17,7 @@ class Fixnum
       change = change % 1
       change
     end
-    output = "" +quarters + " quarters, " + dimes + " dimes, " + nickels + "nickels, " + pennies + "pennies"
+    output = "#{quarters} quarters, #{dimes} dimes, #{nickels} nickels, #{pennies} pennies"
+    output
   end
 end
